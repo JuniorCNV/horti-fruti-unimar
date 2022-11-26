@@ -18,7 +18,7 @@ vamos precisar criar o banco de dados com suas tabelas relacionais, basta seguir
 
 - core/db/baseMysql.sql
 
-caso seu queira colocar senha com basta adicionar a mesma no arquivo core\settings.py 
+caso seu queira colocar senha com basta adicionar a mesma no arquivo core\settings.py
 
 ```
 DATABASES = {
@@ -41,4 +41,23 @@ Para executar o serviço Django:
 python manage.py runserver
 ```
 
-E até a próxima!
+## IMAGENS DO SERVIÇO
+
+### Página Inicial:
+
+![alt text](erp\static\erp\img\home.png)
+
+### Funcionários:
+
+![alt text](erp\static\erp\img\funcionarios.png)
+
+### Produtos:
+
+![alt text](erp\static\erp\img\produtos.png)
+
+### Vendas:
+
+![alt text](erp\static\erp\img\vendas.png)
+
+
+

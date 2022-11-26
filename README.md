@@ -1,48 +1,48 @@
 # HortiFruti UNIMAR, Django
 
-Código produzido como parte do artigo sobre Desenvolvimento Web com Django da Python Academy. 
-[Acesse aqui](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao) 
+Código produzido como parte do artigo sobre Desenvolvimento Web com Django da Python Academy.
+[Acesse aqui](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao)
 e saiba mais!
 
-## Instalação
+## Introdução
 
-Primeiro, recomenda-se a criação de um ambiente virtual. 
+O projeto foi criando em Python usando o framework django com a ideia de chegar proximo a um ERP de vendas de produtos
 
-_Quer saber mais ambientes virtuais? Então [acesse o link para nosso post 
-sobre ambientes virtuais no Python](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais)!_
+## Tecnologias usadas
 
-Com seu ambiente virtual configurado, instale as dependências do projeto com:
+- Python
+- Django
+- MySql
+- Bootstrap
+- Linguagens de Marcação : HTML
 
-```bash
-pip install -r requirements.txt
+## Antes de executar
+
+vamos precisar criar o banco de dados com suas tabelas relacionais, basta seguir o caminho para encontrar o sql de criação do database e suas tables
+
+- core/db/baseMysql.sql
+
+caso seu queira colocar senha com basta adicionar a mesma no arquivo core\settings.py 
+
 ```
-
-Para criar as _Migrations_:
-
-```bash
-python manage.py makemigrations
-```
-
-Para efetivar as _Migrations_ no banco de dados:
-
-```bash
-python manage.py migrate
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'hortifrutidb',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
 ```
 
 ## Execução
 
-Para executar o servidor de testes do Django, execute:
+Para executar o serviço Django:
 
 ```bash
 python manage.py runserver
 ```
-
-## Fique por dentro
-
-Se gostou do conteúdo, siga a Python Academy no nosso blog e redes sociais!
-
-- [Site](https://pythonacademy.com.br)
-- [Facebook](https://facebook.com.br/pythonacademy/)
-- [Blog](https://pythonacademy.com.br/blog/)
 
 E até a próxima!

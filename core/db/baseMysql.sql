@@ -1,4 +1,4 @@
-CREATE DATABASE testdb;
+CREATE DATABASE hortifrutidb;
 
 CREATE TABLE core_funcionario (
    ID int NOT NULL AUTO_INCREMENT, 

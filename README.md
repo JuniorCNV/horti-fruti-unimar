@@ -45,19 +45,19 @@ python manage.py runserver
 
 ### Página Inicial:
 
-![alt text](erp\static\erp\img\home.png)
+![home](erp\static\erp\img\home.png)
 
 ### Funcionários:
 
-![alt text](erp\static\erp\img\funcionarios.png)
+![collaborators](erp\static\erp\img\funcionarios.png)
 
 ### Produtos:
 
-![alt text](erp\static\erp\img\produtos.png)
+![products](erp\static\erp\img\produtos.png)
 
 ### Vendas:
 
-![alt text](erp\static\erp\img\vendas.png)
+![sales](erp\static\erp\img\vendas.png)
 
 
 

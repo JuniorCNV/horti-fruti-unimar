@@ -1,9 +1,5 @@
 # HortiFruti UNIMAR, Django
 
-Código produzido como parte do artigo sobre Desenvolvimento Web com Django da Python Academy.
-[Acesse aqui](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao)
-e saiba mais!
-
 ## Introdução
 
 O projeto foi criando em Python usando o framework django com a ideia de chegar proximo a um ERP de vendas de produtos
